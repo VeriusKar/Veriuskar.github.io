@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Моя первая страница</title>
+  <meta charset="utf-8">
+  <script src="vy.html"></script>
+  <link rel="stylesheet" type="text/css" href="basic.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <script type="text/javascript"> 
+  document.ondragstart = noselect; // запрет на перетаскивание 
+  document.onselectstart = noselect; // запрет на выделение элементов страницы 
+  document.oncontextmenu = noselect; // запрет на выведение контекстного меню 
+  function noselect() {return false;} </script>
+
+</head>
+<body>
+
+  <ul class="menu-th">
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="games.html">Игры</a>
+        <ul>
+            <li><a href="zagatka.html">Загадки</a></li>
+            <li><a href="ugadayka.html">Угадайка</a></li>
+            <li><a href="ugadayka2.html">Угадайка в двоем</a></li>
+
+        </ul>
+    </li>  
+    <li><a href="about.html">Обо мне</a></li>
+    <li><a href="contacts.html">Контакты</a></li>
+    </ul>
+   <div id="game">
+  <a href="http://vk.com/karen.shahbekyan"> <img src="img/vk.png" height="150" width="200"></a>
+  <a href="http://ok.ru/karen.shaybekyan"> <img src="img/ok.png" height="150" width="180"></a>
+  <a href="http://facebook.com/karen.shahbekyan.9"> <img src="img/fb.png" height="150" width="220"></a>
+  </div>
+  <div id="footer">
+    Все права защищены
+  </div>
+</body>
+</html>
