@@ -90,7 +90,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["Меня зовут Карен", "Мне 17", "Люблю програмирование", "и фотографировать"],
+        strings: ["Меня зовут Карен", "Мне 17", "Люблю кодинг и", "фотографировать"],
         typeSpeed: 100,
         backDelay: 900,
         // loop
@@ -99,7 +99,7 @@
 
     //owl carousel
     $('.owl-carousel').owlCarousel({
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
+      autoPlay: 4500, //Set AutoPlay to 3 seconds
  
       items : 1,
       itemsDesktop : [1199,1],
@@ -113,7 +113,7 @@
     });
 
     $('.owl-carousel2').owlCarousel({
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
+      autoPlay: 4500, //Set AutoPlay to 3 seconds
  
       items : 1,
       itemsDesktop : [1199,1],
