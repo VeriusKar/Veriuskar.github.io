@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pass</title>
+</head>
+<body>
+<form>
+<input name="psw" placeholder="Введите пароль">
+<input type="button" value="Проверить" onclick="testPassword (this.form.psw.value)">
+Примеры подходящих паролей:
+<tt>70 130</tt>
+</form>
+ 
+<script>
+function testPassword (p)
+{
+if(!p.length) {alert ('ошибка, ничего не введено'); return}
+if (p.replace (/\d/g, '').length) {alert ('ошибка, пароль должен содержать только цифры'); return}
+for (var s= j = 0, J = p.length; j < J; j++) s += +p.charAt (j);
+if ((p - s) % 7)
+   {
+   alert ('ошибка, пароль не подходит');
+     document.location.href = '404.htm'; // или в другое место при неправильном пароле
+   else
+   {
+   alert ('OK');
+   document.location.href = 'index.html'; // ну или куда вам там надо при верном пароле
+   }
+}
+</script>
+</body>
+</html>
