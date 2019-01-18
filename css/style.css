@@ -919,10 +919,10 @@ ul.portfolio-image li .desc{
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  padding: 10;
+  padding: 20;
   margin: 5;
   min-height: 650px;
-  width: 90%;
+  width: 100%;
   height: 90%;
   float: left;
 }
