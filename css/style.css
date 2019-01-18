@@ -505,7 +505,7 @@ p {
 
 /*----------------------------------------- 6) Hero --------------------------------------------------*/
 #home {
- /* background: url('../images/hero1.JPG'); */
+  /*background: url('../images/hero1.JPG');*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -514,7 +514,7 @@ p {
   min-height: 100%;
   height: 100%;
   width: 100%;
-  display: block;
+  display: block;  
 }
 .wrap-hero-content{
   width: 100%;
@@ -919,10 +919,10 @@ ul.portfolio-image li .desc{
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  padding: 20;
+  padding: 10;
   margin: 5;
   min-height: 650px;
-  width: 100%;
+  width: 90%;
   height: 90%;
   float: left;
 }
@@ -1262,3 +1262,10 @@ ul.portfolio-image li .desc{
 }
 .skillst .count-bar .count { background-color: #818181;}
 .skillst .count-bar .count span:after { border-top: 4px solid #818181;}
+
+
+/*-------------Slide-------------*/
+
+
+
+/*-------------Slide-------------*/
