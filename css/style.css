@@ -918,12 +918,13 @@ ul.portfolio-image li .desc{
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
-  min-height: 650px;
-  min-width: 650px;
+  /*position: relative;*/
+  /*min-height: 650px;*/
   margin-left: 150px;
- /* width: 90%;
-  height: 90%;*/
+  margin-top: 40px;
+  min-height: 650px;
+  width: 75%;
+  height: 75%;
   /*float: left;
   */
 }
