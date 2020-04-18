@@ -919,13 +919,13 @@ ul.portfolio-image li .desc{
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  padding: 10;
-  margin: 5;
   min-height: 650px;
-  width: 90%;
-  height: 90%;
-  float: left;
-  
+  min-width: 650px;
+  margin-left: 150px;
+ /* width: 90%;
+  height: 90%;*/
+  /*float: left;
+  */
 }
 .wrap-about {
   height: 100%;
