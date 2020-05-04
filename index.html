@@ -21,7 +21,7 @@
     <!--fonts google-->
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
-    <script type="text/javascript">
+<!--     <script type="text/javascript">
   var total_pics_num = 9; // колличество изображений
   var interval = 5000;    // задержка между изображениями
   var time_out = 1;       // задержка смены изображений
@@ -51,6 +51,11 @@
       fade_to_next();
     }, interval
   );
+</script> -->
+<script>
+// Get the video
+var video = document.getElementById("myVideo");
+
 </script>
     <!--[if lt IE 9]>
        <script type="text/javascript" src="js/html5shiv.min.js"></script>
@@ -58,11 +63,11 @@
   </head>
   <body>
     <!--PRELOADER-->
-    <!-- <div id="preloader">
+    <div id="preloader">
       <div id="status">
         <img alt="logo" src="images/logo-big.png">
       </div>
-    </div> -->
+    </div>
     <!--/.PRELOADER END-->
 
     <!--HEADER -->
@@ -121,20 +126,9 @@
       <div class="content">
         <!--HOME-->
        <section id="home">
-       	<div class="slide">
-  <img src='images/wrk/01.jpg' id="image_1" style="position: absolute; width: 100%; height: 100%" />
-  <img src='images/wrk/02.jpg' id="image_2" style="opacity: 0; filter: alpha(opacity=0); position: absolute; width: 100%; height: 100%;" />
-  <img src='images/wrk/03.jpg' id="image_3" style="opacity: 0; filter: alpha(opacity=0); position: absolute; width: 100%; height: 100%;" />
-  <img src='images/wrk/04.jpg' id="image_4" style="opacity: 0; filter: alpha(opacity=0); position: absolute; width: 100%; height: 100%;" />
-  <img src='images/wrk/05.jpg' id="image_4" style="opacity: 0; filter: alpha(opacity=0); position: absolute; width: 100%; height: 100%;" />
-  <img src='images/wrk/06.jpg' id="image_4" style="opacity: 0; filter: alpha(opacity=0); position: absolute; width: 100%; height: 100%;" />
-  <img src='images/wrk/07.jpg' id="image_4" style="opacity: 0; filter: alpha(opacity=0); position: absolute; width: 100%; height: 100%;" />
-  <img src='images/wrk/08.jpg' id="image_4" style="opacity: 0; filter: alpha(opacity=0); position: absolute; width: 100%; height: 100%;" />
-  <img src='images/wrk/09.jpg' id="image_4" style="opacity: 0; filter: alpha(opacity=0); position: absolute; width: 100%; height: 100%;" />
-		</div>
-
-
-
+          <video autoplay muted loop id="myVideo">
+            <source src="images/video-bg.mp4" type="video/mp4">
+          </video>
           <div class="container">
             <div class="row">
               <div class="wrap-hero-content">
@@ -218,8 +212,7 @@
           </div>
         </section>
         <!--/.ABOUT END-->
-<!-- 
-        WORK
+        <!-- WORK -->
         <section class="grey-bg mar-tm-10" id="work">
           <div class="container">
             <div class="row">
@@ -232,53 +225,53 @@
                 </p>
               </div>
               <div class="col-md-9 content-right">
-                PORTFOLIO IMAGE
+                <!-- PORTFOLIO IMAGE -->
                 <ul class="portfolio-image">
                   <li class="col-md-6">
-                    <a href="images/bw-1.png"><img alt="image" src="images/bw-1.png">
-                      <div class="decription-wrap">
+                    <a href="images/wrk/01.jpg"><img alt="image" src="images/wrk/01.jpg">
+                      <!-- <div class="decription-wrap">
                         <div class="image-bg">
                            <p class="desc">My Resume</p>
                         </div>
 
-                      </div>
+                      </div> -->
                     </a>
                   </li>
                   <li class="col-md-6">
-                    <a href="images/bw-2.png"><img alt="image" src="images/bw-2.png">
-                      <div class="decription-wrap">
+                    <a href="images/wrk/02.jpg"><img alt="image" src="images/wrk/02.jpg">
+                      <!-- <div class="decription-wrap">
                         <div class="image-bg">
                           <p class="desc">
                             Pangirutan
                           </p>
                         </div>
-                      </div>
+                      </div> -->
                     </a>
                   </li>
                   <li class="col-md-6">
-                    <a href="images/bw-3.png"><img alt="image" src="images/bw-3.png">
-                      <div class="decription-wrap">
+                    <a href="images/wrk/03.jpg"><img alt="image" src="images/wrk/03.jpg">
+                      <!-- <div class="decription-wrap">
                         <div class="image-bg">
                           <p class="desc">
                             Black Mug
                           </p>
                         </div>
-                      </div>
+                      </div> -->
                     </a>
                   </li>
                   <li class="col-md-6">
-                    <a href="images/bw-4.png"><img alt="image" src="images/bw-4.png">
+                    <a href="images/wrk/04.jpg"><img alt="image" src="images/wrk/04.jpg">
                       <div class="decription-wrap">
                         <div class="image-bg">
                           <p class="desc">
-                            Notebook Mockup
+                            See more
                           </p>
                         </div>
                       </div>
                     </a>
                   </li>
-                  <li class="col-md-6">
-                    <a href="images/bw-5.png"><img alt="image" src="images/bw-5.png">
+<!--                   <li class="col-md-6">
+                    <a href="images/wrk/05.jpg"><img alt="image" src="images/wrk/05.jpg">
                       <div class="decription-wrap">
                         <div class="image-bg">
                           <p class="desc">
@@ -289,7 +282,7 @@
                     </a>
                   </li>
                   <li class="col-md-6">
-                    <a href="images/bw-6.png"><img alt="image" src="images/bw-6.png">
+                    <a href="images/wrk/06.jpg"><img alt="image" src="images/wrk/06.jpg">
                       <div class="decription-wrap">
                         <div class="image-bg">
                           <p class="desc">
@@ -298,15 +291,15 @@
                         </div>
                       </div>
                     </a>
-                  </li>
+                  </li> -->
                 </ul>
-                /.PORTFOLIO IMAGE END
+               <!--  /.PORTFOLIO IMAGE END -->
               </div>
             </div>
           </div>
         </section>
-        /.WORK END
- -->
+      <!--  /.WORK END -->
+
         <!--SERVICES
         <section class="white-bg" id="services">
           <div class="container">
