@@ -1630,7 +1630,18 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 			}
-
+			#main .thumb > .imagep {
+				-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				border: 0;
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
 			#main .thumb > .image {
 				-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 				background-position: center;
@@ -1643,7 +1654,7 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 			}
-
+			
 			#main .thumb > h2 {
 				pointer-events: none;
 				bottom: 1.875em;
@@ -2037,6 +2048,7 @@ input, select, textarea {
 				}
 
 		}
+
 
 /* Footer */
 
