@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Угадайка</title>
+  <meta charset="utf-8">
+  <script src="vy.html"></script>
+  <link rel="stylesheet" type="text/css" href="basic.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <script type="text/javascript"> 
+  document.ondragstart = noselect; // запрет на перетаскивание 
+  document.onselectstart = noselect; // запрет на выделение элементов страницы 
+  document.oncontextmenu = noselect; // запрет на выведение контекстного меню 
+  function noselect() {return false;} </script>
+  <script type="text/javascript">
+  
+  function Play(){
+  var num = Math.round(Math.random()*100);
+while(true) {
+  var userNum = +prompt('Введите число:');
+  if (userNum > num) {
+    alert('Меньше');
+  }
+  else if (userNum < num) {
+    alert('Больше');
+  }
+  else {
+    alert('Угадал :)');
+    break;  
+  }
+}
+}
+</script>
+</head>
+<body>
+    <ul class="menu-th">
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="games.html">Игры</a>
+        <ul>
+            <li><a href="zagatka.html">Загадки</a></li>
+            <li><a href="ugadayka.html">Угадайка</a></li>
+            <li><a href="ugadayka2.html">Угадайка в двоем</a></li>
+
+        </ul>
+    </li>  
+    <li><a href="about.html">Обо мне</a></li>
+    <li><a href="contacts.html">Контакты</a></li>
+</ul>
+
+    <div id="center" > 
+    <h1>Угадайка </h1>  
+
+      <div id="box">
+	  <h4 id="prav"><p>У вас будет неограниченное количество попыток, чтобы угадать загадку.</p>
+      </h4>
+           <br><br/>
+           <button  id="box">
+            <a href="#" onclick="Play();">Начать игру</a></button>
+      </div>
+</div>
+
+  <div id="footer">
+    Все права защищены
+  </div>
+</body>
+</html>
+
+

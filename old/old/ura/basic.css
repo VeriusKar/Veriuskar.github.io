@@ -1,0 +1,200 @@
+
+html {
+  height: 100%;
+
+}
+body {
+  height: 100%;
+  position: relative;
+
+
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+#sertif{
+  
+  margin-left: 30px; 
+}
+
+#about {
+padding: 30px;
+
+}
+
+#about h1{
+  text-align: center;
+
+}
+
+#vy {
+  padding: 30px;
+}
+#about h2{
+  margin: 30px 20px 0px 20px;
+}
+#menu {
+  text-align: center;
+  background: gray;
+  padding: 20px;
+}
+
+#menu li {
+  display: inline-block;
+  margin: 0 20px 0 20px;
+}
+
+#menu li a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  color: yellow;
+}
+
+#content {
+  padding-top: 40px; 
+}
+
+#content .left {
+  float: left;
+  width: 30%;
+  text-align: center;
+  margin-right: 0;
+}
+
+#content .right {
+  float: left;
+  width: 70%;
+  font-size: 24px;
+}
+
+#content .right p {
+  padding: 5px 20px 5px 20px;
+}
+
+#footer {
+  background: #8e8e8e;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0 ;
+  text-align: center;
+  color: white;
+  left: 0;
+  padding-right: 0;
+}
+
+
+
+#game {
+    text-align: center;
+    width: 1280px;
+    margin: 0 auto;
+    padding: 50px 50px 50px 50px;
+    padding-top: center;
+    
+}
+
+#center {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 50px 50px 50px 50px;
+    padding-top: center;
+    
+}
+#center h1 {
+  padding-bottom: 20px;
+
+}
+#prav {
+  padding-top: 30px;
+}
+#box h4 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+#box a {
+    display: block;
+    float: left;
+    background-color: #8e8e8e;
+    color:  #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    padding:11px 51px;
+}
+/*CSS меню*/
+
+ul.menu-th {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top: 0; /*делаем отступ сверху*/
+  background:#8e8e8e; /*добавляем фон всему меню*/
+  height: 50px; /*задаем высоту*/
+  padding-left: 30%;
+}
+.menu-th a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background: #8e8e8e; /*добавляем фон к пункту меню*/
+  color: #6DDDD8; /*меняем цвет ссылок*/
+  padding: 0px 50px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:50px; /*ровняем меню по вертикали*/
+  display: block; 
+  border-right: 1px solid #458877; /*добавляем бордюр справа*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+
+}
+.menu-th a:hover {
+  background:#753BE0;/*добавляем эффект при наведении*/
+}
+.menu-th li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+  position:relative; /*задаем позицию для позиционирования*/
+}
+     
+    /*Стили для скрытого выпадающего меню*/
+ .menu-th    li > ul {
+        position:absolute;
+        display:none;   
+    }
+     
+    /*Делаем скрытую часть видимой*/
+ .menu-th    li:hover > ul {
+        display:block; 
+        width:250px;  /*Задаем ширину выпадающего меню*/      
+    list-style:none;
+    padding-left:0px;
+    }
+.menu-th    li:hover > ul > li {
+        float:none; /*Убираем горизонтальное позиционирование*/
+    
+    }
+
+
+/*для разных устройств */
+.leftcolumn {
+width: 27%; /* 270px / 1000px = 0,27 */
+float: left;
+}
+ 
+.rightcolumn {
+width: 73%; /* 730px / 1000px = 0,73 */
+float: right;
+}
+
+.leftcolumn .some-div {
+width: 62,962963%; /* 170px / 270px = 0.62962963 */
+float: left;
+}

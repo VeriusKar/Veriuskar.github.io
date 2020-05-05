@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Обо мне</title>
+  <meta charset="utf-8">
+  <script src="vy.html"></script>
+  <link rel="stylesheet" type="text/css" href="basic.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <script type="text/javascript"> 
+  document.ondragstart = noselect; // запрет на перетаскивание 
+  document.onselectstart = noselect; // запрет на выделение элементов страницы 
+  document.oncontextmenu = noselect; // запрет на выведение контекстного меню 
+  function noselect() {return false;} </script>
+
+</head>
+<body>
+   <ul class="menu-th">
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="games.html">Игры</a>
+        <ul>
+            <li><a href="zagatka.html">Загадки</a></li>
+            <li><a href="ugadayka.html">Угадайка</a></li>
+            <li><a href="ugadayka2.html">Угадайка в двоем</a></li>
+
+        </ul>
+    </li>  
+    <li><a href="about.html">Обо мне</a></li>
+    <li><a href="contacts.html">Контакты</a></li>
+</ul>
+  <!-- divider -->
+  <div id='about'>
+  <h1>Обо мне</h1>
+  <h2> Меня зовут Карен Шайбекян. Записался на бесплатные курсы GeekBrains. Предподователь <a href="vy.html" >Владимир Языков</a>.
+  	Меня можно найти в <a href="contacts.html">Тут</a>
+  </h2>
+  <ul id="sertif">
+   Мой сертификат от <a href="https://geekbrains.ru/">GeekBrains</a> 
+   <p><img src="img/image3.png" height="250"></p></ul>
+  </div>
+  <div id="footer">
+    Все права защищены
+  </div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Моя первая страница</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <meta charset="utf-8">
+  <script src="vy.html"></script>
+  <link rel="stylesheet" type="text/css" href="basic.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+<body>
+  <!-- unordered list -->
+  <ul id="menu">
+    <!-- list item -->
+    <li>
+      <!-- anchor -->
+      <a href="index.html">
+        Главная
+      </a>
+    </li>
+    <li>
+      <a href="about.html">
+        Обо мне
+      </a>
+    </li>
+    <li>
+      <!-- <a href="http://yandex.ru">
+        Контакты
+      </a> -->
+      <a href="contacts.html">
+        Контакты
+      </a>
+            <li>
+      <!-- <a href="http://yandex.ru">
+        Контакты
+      </a> -->
+      <a href="ugadayka.html">
+        Угодайка
+      </a>
+    </li>
+    </li>
+  </ul>
+  <!-- divider -->
+
+
+  <div id="footer">
+    Все права защищены
+  </div>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Личный сайт студента GeekBrains</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript">
+  
+  function Play(){
+  var num = Math.round(Math.random()*100);
+while(true) {
+  var userNum = +prompt('Введите число:');
+  if (userNum > num) {
+    alert('Меньше');
+  }
+  else if (userNum < num) {
+    alert('Больше');
+  }
+  else {
+    alert('Угадал');
+    break;  
+  }
+}
+}
+</script>
+</head>
+<body>
+  <div id="header">
+    <a href="index.html">Главная</a><span>/</span>
+    <a href="puzzle.html">Загадки</a><span>/</span>
+    <a href="ugadayka.html">Угадайка</a><span>/</span>
+    <a href="guess-2.html">Угадайка мультиплеер</a><span>/</span>
+  </div>
+<div id="content">
+  <h1>Личный сайт студента GeekBrains</h1>
+    <div id="center"> 
+    <h3>Угадайка </h3>      
+      <div id="box">
+        <p>Играет 1 игрок. У вас будет неограниченное количество попыток, чтобы угадать загадку.</p>
+            <br><br/>
+            <a href="#" onclick="Play();">Начать игру</a>
+      </div>
+</div>
+
+<div id="footer">
+  Copyright © 2016 <a href="https://geekbrains.ru/"> GeekBrains </a>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+  <script type="text/javascript">
+    
+    function Play()
+    { 
+      var answer = parseInt(Math.random() * 100);
+      var plyaerNum = 1;
+      while(true){
+        var userAnswer = prompt('Ходит игрок ' + plyaerNum + ' .Введите число от 0 до 100. Для выхода нажмите q');
+
+        if(userAnswer == 'q')
+          break;
+        if(userAnswer > answer){
+          alert('Ваше число слишком большое');
+        } else if(userAnswer < answer){
+          alert('Ваше число слишком маленькое');
+        } else if(userAnswer == answer){
+          alert('Вы угадали, поздравляю! Победил игрок номер ' + plyaerNum);
+          break;
+        }
+
+        if(plyaerNum == 1)
+          plyaerNum = 2;    
+        else if(plyaerNum == 2)
+          plyaerNum = 1;
+      }
+
+    }
+
+  </script>
