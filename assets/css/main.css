@@ -127,6 +127,8 @@ input, select, textarea {
 	.icon {
 		text-decoration: none;
 		position: relative;
+		
+
 	}
 
 		.icon:before {
@@ -140,6 +142,8 @@ input, select, textarea {
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
+			color: #FF3333;
+
 		}
 
 		.icon > .label {
@@ -558,6 +562,7 @@ input, select, textarea {
 			font-weight: 900;
 			letter-spacing: -0.035em;
 			line-height: 1em;
+			color: #e8e8e8;
 		}
 
 		#header p {
