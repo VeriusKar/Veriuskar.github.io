@@ -1906,9 +1906,28 @@ hr.invis1 {
 @media only screen and (max-width:479px){
     .gallery-single .title{ font-size: 18px }
 }
+ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */
+ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */
+
+.gallery-single360{
+ height: 400px;
+ width: 100%;
+
+}
+
+.gallery-single360{
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  border: 10px solid #F91414;
+}
+.gallery-single360 iframe{
+  width: 100%;
+}
 
 
-
+/* test */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */
+ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */ /* test  */
 
 .post-box .date{
 	display: inline-block;
