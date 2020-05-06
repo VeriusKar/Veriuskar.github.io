@@ -2756,7 +2756,7 @@ select.mobile-device {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #333333;
+    background: #e8e8e8;
     z-index: 11000;
     position: fixed;
     display: block
@@ -2773,25 +2773,25 @@ select.mobile-device {
 }
 
 .loader-rd:nth-child(1) {
-  background-color: #FF5460;
+  background-color: #0080ff;
   -webkit-animation: move 2s infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
           animation: move 2s infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
 }
 
 .loader-rd:nth-child(2) {
-  background-color: #FF9D84;
+  background-color: #ff0000;
   -webkit-animation: move 2s 150ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
           animation: move 2s 150ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
 }
 
 .loader-rd:nth-child(3) {
-  background-color: #F0E797;
+  background-color: #00ff80;
   -webkit-animation: move 2s 300ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
           animation: move 2s 300ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
 }
 
 .loader-rd:nth-child(4) {
-  background-color: #75B08A;
+  background-color: #00ffff;
   -webkit-animation: move 2s 450ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
           animation: move 2s 450ms infinite cubic-bezier(0.2, 0.64, 0.81, 0.23);
 }
