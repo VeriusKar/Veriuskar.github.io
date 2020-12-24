@@ -13,6 +13,16 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<script src="https://kit.fontawesome.com/22e91e1def.js" crossorigin="anonymous"></script>
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<meta http-equiv="imagetoolbar" content="no">
+
+		<script type="text/javascript">
+		function noRightClick() {
+		if (event.button==2) {
+		alert('You may not right mouse click this page.')
+		}
+		}
+		document.onmousedown=noRightClick
+		</script>
 	</head>
 	<body class="is-preload">
 		<div id="wrapper">
